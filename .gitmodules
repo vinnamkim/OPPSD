@@ -9,4 +9,4 @@
 	url = https://github.com/weiaicunzai/pytorch-cifar100
 [submodule "vision_xai_tools/fullgrad"]
 	path = vision_xai_tools/fullgrad
-	url = https://github.com/idiap/fullgrad-saliency
+	url = https://github.com/vinnamkim/fullgrad-saliency

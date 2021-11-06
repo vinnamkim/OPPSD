@@ -1,7 +1,7 @@
 # One-Step Pixel-Level Perturbation-Based Saliency Detector
 
 ## How to setup
-1. Prepare Python 3.8 environment with PyTorch `torch==1.8.0+cu111`.
+1. Prepare Python 3.8 environment with PyTorch `torch==1.7.1+cu110`.
 2. Git clone this repo.
 ```shell
 $ git clone https://github.com/vinnamkim/OPPSD.git
