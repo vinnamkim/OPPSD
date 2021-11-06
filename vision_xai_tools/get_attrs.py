@@ -80,16 +80,16 @@ def get_attr_method(model: nn.Module, attr_method_name: str):
         raise Exception(f'Unknown method {attr_method_name}')
 
 
-# parser = argparse.ArgumentParser()
-# parser.add_argument('--model-name', '-n', type=str, default='resnet50')
-# parser.add_argument('--method', '-m', type=str, required=True)
-# parser.add_argument('--dataset', '-d', type=str, required=True)
-# parser.add_argument('--split', '-s', type=str, required=True)
-# parser.add_argument('--randomize', '-r', type=str, required=False)
-# parser.add_argument('--batch-size', '-b', type=int, default=32)
-# parser.add_argument('--debug', action='store_true')
-# parser.add_argument('--subset', action='store_true')
-# args = parser.parse_args()
+parser = argparse.ArgumentParser()
+parser.add_argument('--model-name', '-n', type=str, default='resnet50')
+parser.add_argument('--method', '-m', type=str, required=True)
+parser.add_argument('--dataset', '-d', type=str, required=True)
+parser.add_argument('--split', '-s', type=str, required=True)
+parser.add_argument('--randomize', '-r', type=str, required=False)
+parser.add_argument('--batch-size', '-b', type=int, default=32)
+parser.add_argument('--debug', action='store_true')
+parser.add_argument('--subset', action='store_true')
+args = parser.parse_args()
 
 
 if __name__ == "__main__":
