@@ -7,11 +7,12 @@
 $ git clone https://github.com/vinnamkim/OPPSD.git
 $ cd OPPSD
 ```
-3. Git submodule update with initialization
+3. Git submodule update with initialization.
 ```shell
 $ git submodule update --init
 ```
-4. Install dependency
+4. Install dependency.
 ```shell
 $ pip install -r requirements.txt
 ```
+5. Setup datasets. Please read [./dataset/README.md](./dataset/README.md) for more details.

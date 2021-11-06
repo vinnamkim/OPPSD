@@ -457,7 +457,7 @@ class CIFAR100Dataset(CIFAR100):
         NORMALIZE
     ])
 
-    def __init__(self, split: str = 'val', augmentation: bool = False):
+    def __init__(self, split: str = 'valid', augmentation: bool = False):
         transform = CIFAR100Dataset.AUG_TRANSFORM if augmentation else CIFAR100Dataset.NORM_TRANSFORM
 
         if split == 'train':
