@@ -1,0 +1,12 @@
+[submodule "captum"]
+	path = deps/captum
+	url = https://github.com/vinnamkim/captum.git
+[submodule "pytorch-image-models"]
+	path = deps/pytorch-image-models
+	url = https://github.com/rwightman/pytorch-image-models
+[submodule "vision_xai_tools/pytorch-cifar100"]
+	path = vision_xai_tools/pytorch_cifar100
+	url = https://github.com/weiaicunzai/pytorch-cifar100
+[submodule "vision_xai_tools/fullgrad"]
+	path = vision_xai_tools/fullgrad
+	url = https://github.com/idiap/fullgrad-saliency
